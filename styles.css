@@ -1,0 +1,32 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0.1in; /* Adds margins to the entire page */
+  }
+
+  table {
+      border-collapse: collapse;
+      width: 100%; /* Ensures tables fit within the page width */
+      table-layout: fixed; /* Prevents columns from expanding excessively */
+      word-wrap: break-word; /* Breaks long text into multiple lines */
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  th, td {
+      border: 1px solid #000;
+      padding: 1px;
+      text-align: left;
+  }
+
+  h1, h2, h3 {
+      font-size: 1.2em;
+      margin: 0.5em 0;
+  }
+
+  p {
+      margin: 0.5em 0;
+  }
